@@ -11,6 +11,5 @@
       "src": "/api/(.*)",
       "dest": "/src/index.js"
     }
-  ],
-  "buildCommand": "npm run prisma:generate && npm run prisma:migrate && npx prisma generate"
+  ]
 }
